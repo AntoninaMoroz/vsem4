@@ -90,6 +90,6 @@ Duration 137352
 Duration 112045
 
  So,for this example, it is better to use Files.lines
- because it takes less time and less memory on the computer.
+ because it takes less time and less computer memory.
   */
 
