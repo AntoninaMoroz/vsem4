@@ -78,8 +78,8 @@ Thread-2 Duration is 4689
 So,each of the threads took about 4650 MILLIS,
 but it took more than 4835 MILLIS to create 5 threads
 from the beginning of the first to the end of the fifth.
-In comparison with the method getLogsByDateToFile which took 28361 MILLIS.
+In comparison with consistent way (one after another) which took 28361 MILLIS.
 
 Conclusion: Using Multi-trends will help save processing time,
-but it is almost impossible to arrange them.
+but determining the order is almost impossible.
  */
