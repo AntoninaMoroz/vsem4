@@ -67,9 +67,7 @@ public class Main {
 
         System.out.println("Duration " + ChronoUnit.MILLIS.between(start, finish));
 
-    }
-}
-// 5. Compare two results.
+        // 5. Compare two results.
 
  /* results
 
@@ -92,4 +90,8 @@ Duration 112045
  So,for this example, it is better to use Files.lines
  because it takes less time and less computer memory.
   */
+
+    }
+}
+
 
