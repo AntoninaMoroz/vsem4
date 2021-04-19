@@ -14,11 +14,9 @@ import java.time.temporal.ChronoUnit;
  **/
 public class MyThread extends Thread{
     private LocalDate data;
-    private String file;
 
     public MyThread(LocalDate data) {
         this.data = data;
-        this.file = file;
     }
 
     public LocalDate getData() {
@@ -29,13 +27,6 @@ public class MyThread extends Thread{
         this.data = data;
     }
 
-    public String getFile() {
-        return file;
-    }
-
-    public void setFile(String file) {
-        this.file = file;
-    }
 
     @Override
     public void run() {
